@@ -1,7 +1,11 @@
 var spiralOrder = function(matrix) {
+    // top represents the top most row
     let top = 0;
+    // left represents the left most column
     let left = 0;
+    // bottom represents the bottom most row 
     let bottom = matrix.length - 1;
+    // right represents the right most column
     let right = matrix[0].length - 1;
     const result = [];
     // gets the size of the array.

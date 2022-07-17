@@ -10,7 +10,7 @@ var topKFrequent = function (nums, k) {
     }
 
     const bucket = [];
-    for (let i = 0; i < nums.length; i++) {
+    for (let i = 0; i <= nums.length; i++) {
         bucket.push([]);
     }
 
